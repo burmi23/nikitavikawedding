@@ -1,0 +1,153 @@
+/* general */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'font', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  min-height: inherit;
+}
+
+.section-offset {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reset-descr {
+  margin: 0;
+}
+
+.reset-title {
+  margin: 0;
+  font-size: 40px;
+}
+
+/* promo */
+
+.promo {
+  min-height: 540px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(158, 104, 104);
+}
+
+.promo-bg {
+  background-image: url();
+}
+
+.main-title-block {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(111, 111, 111, .5);
+}
+
+.main-title {
+  margin: 0;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 130%;
+  color: #1C1C1C;
+}
+
+/* invite */
+
+.invite {
+  min-height: 540px;
+  background-color: rgb(76, 78, 204);
+}
+
+.invite-flex {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.invite-bg {
+  background-image: url();
+}
+
+.invite-title {
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.invite-text {
+  max-width: 659px;
+  font-size: 30px;
+
+}
+
+.invite-text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/* style */
+
+.style {
+  min-height: 540px;
+  padding-top: 50px;
+  background-color: rgb(76, 174, 204);
+}
+
+.style-block {
+  align-items: center;
+  justify-content: center;
+}
+
+.style-decr {
+  max-width: 900px;
+  padding: 40px 30px;
+  font-size: 30px;
+
+}
+
+.style-color-list {
+  width: 300px ;
+  height: 400px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.color-item {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.color-item:not(:nth-child(2n)) {
+  margin-right: 10px;
+}
