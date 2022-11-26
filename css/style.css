@@ -34,6 +34,10 @@ section {
   outline: 1px solid red;
 }
 
+section:nth-child(2n) {
+  background-color: rgb(236, 197, 197);
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -69,9 +73,13 @@ section {
   min-height: 540px;
   align-items: center;
   justify-content: center;
-  background-color: rgb(158, 104, 104);
+  /* background-color: rgb(158, 104, 104); */
 }
 
+.flex-promo {
+  display: flex;
+  align-items: center;
+}
 .promo-bg {
   background-image: url();
 }
@@ -81,7 +89,7 @@ section {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background-color: rgba(111, 111, 111, .5);
+  /* background-color: rgba(111, 111, 111, .5); */
 }
 
 .main-title {
@@ -96,7 +104,7 @@ section {
 
 .invite {
   min-height: 540px;
-  background-color: rgb(76, 78, 204);
+  /* background-color: rgb(76, 78, 204); */
 }
 
 .invite-flex {
@@ -128,7 +136,7 @@ section {
 .style {
   min-height: 540px;
   padding-top: 50px;
-  background-color: rgb(76, 174, 204);
+  /* background-color: rgb(76, 174, 204); */
 }
 .style-flex {
   display: flex;
@@ -158,7 +166,7 @@ section {
 .color-item {
   width: 85px;
   height: 85px;
-  background-color: #fff;
+  background-color: rgb(167, 158, 158);
   border-radius: 100%;
   margin-bottom: 20px;
 }
@@ -171,8 +179,8 @@ section {
 
 .location {
   min-height: 540px;
-  padding-bottom: 100px;
-  background-color: rgb(137, 199, 94);
+  /* padding-bottom: 100px; */
+  /* background-color: rgb(137, 199, 94); */
 }
 
 .location-block {
@@ -202,7 +210,7 @@ section {
 
 .contacts {
   min-height: 540px;
-  background-color: rgb(180, 115, 176);
+  /* background-color: rgb(180, 115, 176); */
 }
 
 .warning-descr {
