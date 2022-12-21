@@ -409,8 +409,11 @@ section {
 
 .location {
   position: relative;
-  max-height: 310px;
+  height: 670px;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .location-bg {
@@ -423,8 +426,9 @@ section {
 }
 
 .location-bg-tone {
-  /* position: absolute; */
-  max-height: inherit;
+  position: absolute;
+  height: 350px;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
@@ -439,10 +443,13 @@ section {
 }
 
 .location-block {
+  position: relative;
   min-height: inherit;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  font-style:normal;
+  z-index: 3;
 }
 
 .location-descr-block {
@@ -482,11 +489,11 @@ section {
 /* contacts */
 
 .contacts {
-  max-height: 310px;
+  max-height: 200px;
   background-color: rgb(56, 103, 71);;
   background-image: url(../img/location-icon.svg);
-  background-position: bottom right;
-  background-size: 200px 200px;
+  background-position: bottom 20px right 300px;
+  background-size: 100px;
   background-repeat: no-repeat;
 }
 
@@ -500,6 +507,15 @@ section {
 
 .call {
   color: rgb(236, 159, 15);
+}
+
+.contacts-title {
+  margin: 0;
+  line-height: 100%;
+  font-size: 25px;
+  padding: 9px 5px 5px 40px;
+  margin-bottom: 10px;
+  font-style: normal;
 }
 
 .contacts-vika {
@@ -518,18 +534,23 @@ section {
 
 .contacts-block {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   color: #fff;
+  font-style: normal;
 }
 
 .contacts-list {
-  font-size: 25px;
+  font-size: 16px;
 }
 
+.contacts-wrap:not(:last-child) {
+ margin-right: 114px;
+ padding-left: 36px;
+}
 
 .contacts-down {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
 
