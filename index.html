@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
   <title>Приглашение на свадьбу</title>
 </head>
 
 <body>
+  <!-- HEADER -->
   <header class="header section-offset">
     <div class="container flex-header">
       <div class="header-title-block flex">
@@ -20,7 +22,7 @@
           <span class="header-nikita">Nikita</span>
         </h1>
         <!-- <time class="header-time">29.07.2023</time> -->
-        <h2 class="header-invite reset-title">Приглашение на свадьбу</h2>
+        <h2 class="header-invite reset-title">Wedding</h2>
       </div>
     </div>
     <div class="divader-section"></div>
@@ -33,7 +35,7 @@
   <section class="invite section-offset">
     <div class="divader-section"></div>
     <div class="container flex-invite">
-      <article class="invate-block flex ">
+      <article class="invite-block flex ">
         <div class="invite-bg"></div>
         <div class="invite-descr">
           <h2 class="invite-title section-title reset-title">МЫ ЖЕНИМСЯ</h2>
@@ -55,29 +57,30 @@
   <!-- location  -->
   <section class="location location-bg">
     <div class="location-bg-tone section-offset"> </div>
-      <div class="container">
-        <address class="location-block flex">
-          <div class="location-descr-block">
-            <p class="location-descr location-place reset-descr ">
-              <a href="https://yandex.ru/maps/?ll=38.632615%2C55.450874&mode=routes&rtext=~55.450764%2C38.632515&rtt=auto&ruri=~&z=7" class="location-link" target="_blanc"><b>Торжество будет проходить по адресу:</b> Московская обл, городской округ Воскресенск, село Ашитково, парк-отель Розендорф</a>
-            </p>
-
-            <p class="location-descr location-time reset-descr ">Начало в 15:00</p>
-            <p class="location-alert reset-descr">
-              * Кликните на адрес чтобы просмотреть маршрут
-          </div>
-          <p class="location-subtext reset-descr">
-            Не беспокойтесь с выбором подарков! Принимаем любые денежные знаки, Visa, Mastercard)
+    <div class="container">
+      <address class="location-block flex">
+        <div class="location-descr-block">
+          <p class="location-descr location-place reset-descr ">
+            <b>Торжество будет проходить по адресу:</b> Московская обл, городской округ Воскресенск, село Ашитково, парк-отель Розендорф
           </p>
-        </address>
-      </div>
+
+          <p class="location-descr location-time reset-descr ">Начало в 15:00</p>
+          <p class="location-alert reset-descr">
+            <a class="location-link" href="https://yandex.ru/maps/?ll=38.632615%2C55.450874&mode=routes&rtext=~55.450764%2C38.632515&rtt=auto&ruri=~&z=7"  target="_blanc">Построить маршрут</a>
+          </p>
+        </div>
+        <p class="location-subtext reset-descr">
+          Не беспокойтесь с выбором подарков! Принимаем любые денежные знаки, Visa, Mastercard)
+        </p>
+      </address>
+    </div>
 
   </section>
 
   <!-- style  -->
   <section class="style section-offset">
     <div class="divader-section"></div>
-    <div class="container style-flex">
+    <div class="container">
 
       <div class="style-block flex">
 
@@ -88,17 +91,19 @@
 
         <div class="style-right">
           <h2 class="section-title style-title reset-title"> Наш стиль</h2>
-          <p class="style-decr reset-descr "><span class="style-decr-span" >Будем очень благодарны</span>, если вы поддержите стиль и цвет нашей свадьбы в своих нарядах.</p>
-          <ul class="style-color-list reset-list flex">
-            <li class="color-item color-item-1"></li>
-            <li class="color-item color-item-2"></li>
-            <li class="color-item color-item-3"></li>
-            <li class="color-item color-item-4"></li>
-            <li class="color-item color-item-5"></li>
-            <li class="color-item color-item-6"></li>
-            <li class="color-item color-item-7"></li>
-            <li class="color-item color-item-8"></li>
-          </ul>
+          <div class="color-block">
+            <p class="style-descr reset-descr "><span class="style-descr-span">Будем очень благодарны</span>, если вы поддержите стиль и цвет нашей свадьбы в своих нарядах.</p>
+            <ul class="style-color-list reset-list flex">
+              <li class="color-item color-item-1"></li>
+              <li class="color-item color-item-2"></li>
+              <li class="color-item color-item-3"></li>
+              <li class="color-item color-item-4"></li>
+              <li class="color-item color-item-5"></li>
+              <li class="color-item color-item-6"></li>
+              <li class="color-item color-item-7"></li>
+              <li class="color-item color-item-8"></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
