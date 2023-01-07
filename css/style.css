@@ -807,10 +807,13 @@ section {
 }
 
 .location-link {
+  padding: 10px 15px;
   font-size: 25px;
   color: inherit;
   text-transform: lowercase;
-  transition: color .3s ease-in-out;
+  border-radius: 20px;
+  background-color: rgb(236, 159, 15);
+  transition: color .3s ease-in-out, background-color .3s ease-in-out, border .3s ease-in-out;
 
 }
 
@@ -828,13 +831,29 @@ section {
 }
 
 .location-link:hover::after {
-  transform: translateX(14px);
+  transform: translateX(12px);
   background-image: url(../img/arrow2.svg);
+}
+
+.location-link:active::after {
+  transform: translateX(0px);
+  background-image: url(../img/arrow2.svg);
+}
+
+.location-link:focus {
+  text-decoration: underline;
+  border: 1px solid rgb(236, 159, 15);
 }
 
 .location-link:hover {
   color: rgb(236, 159, 15);
-  text-decoration: underline;
+  background-color: #fff;
+}
+
+.location-link:active {
+  color: rgb(236, 159, 15);
+  text-decoration: none;
+  border: 1px solid rgb(236, 159, 15);
 }
 
 .location-block {
@@ -863,7 +882,7 @@ section {
 .location-time {
   color: rgb(236, 159, 15);
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .location-alert {
