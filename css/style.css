@@ -373,6 +373,11 @@
 @media (max-width: 449px) {
   /* STYLE */
 
+  header .header-title {
+    font-size: 108px;
+    line-height: 79px;
+  }
+
   .style .style-title {
     width: 330px;
   }
